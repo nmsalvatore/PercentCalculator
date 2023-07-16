@@ -5,6 +5,10 @@
     function handleFocus(event) {
         event.target.blur();
     }
+
+    function handleDecimalChange(event) {
+        decimalPlaces.set(parseInt(event.target.value));
+    }
 </script>
 
 <aside>
@@ -13,7 +17,7 @@
     <div class="settings-container">
         <label>
             <h5>Decimal Places:</h5>
-            <input class="decimal-input" bind:value={$decimalPlaces} type="number" min="0" max="5"  on:keydown|preventDefault on:focus|self={handleFocus}>
+            <input class="decimal-input" bind:value={$decimalPlaces} type="number" min="0" max="5"  on:keydown|preventDefault on:focus|self={handleFocus} on:change={handleDecimalChange}>
         </label>
 
         <label>
