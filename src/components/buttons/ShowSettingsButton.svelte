@@ -13,12 +13,18 @@
 <style>
     button {
         position: absolute;
-        top: 0;
-        right: -8px;
+        top: -5px;
+        right: -10px;
         cursor: pointer;
         margin: 2rem;
         background: none;
         border: none;
+    }
+
+    @media only screen and (max-width: 480px) {
+        button {
+            margin: 1.5rem;
+        }
     }
 
     svg {

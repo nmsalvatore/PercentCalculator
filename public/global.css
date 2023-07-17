@@ -12,19 +12,12 @@ html, body {
 
 body {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	background: #fafafa;
 	color: #555;
 	font-family: Roboto, Helvetica, sans-serif;
 	font-weight: 400;
-}
-
-main {
-	display: flex;
-	flex: 1;
-	flex-direction: column;
-	max-width: 100%;
 }
 
 button:hover svg {

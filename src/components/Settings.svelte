@@ -37,25 +37,35 @@
 
 <style>
     aside {
-        position: absolute;
         top: 0;
         right: 0;
-        width: 420px;
+        width: 480px;
         height: 100%;
-        background: #fafafa;
-        border-left: 1px solid #eaeaea;
+        background: #f8f8f8;
+        border-left: 2px solid #eee;
         padding: 2rem;
-        box-shadow: -1px 0px 10px -9px;
+        z-index: 1;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        aside {
+            position: absolute;
+            width: 480px;
+        }
     }
 
     @media only screen and (max-width: 480px) {
         aside {
+            padding: 1.5rem;
             width: 100%;
         }
     }
 
     h3 {
         margin-bottom: 4rem;
+        font-size: 16px;
+        color: #666;
+        letter-spacing: 1px;
     }
 
     h5 {

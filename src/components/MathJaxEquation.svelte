@@ -22,5 +22,6 @@
 <style>
     .mathjax-equation {
         height: 72px;
+        margin-top: 3rem;
     }
 </style>

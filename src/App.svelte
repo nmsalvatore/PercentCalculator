@@ -1,16 +1,24 @@
 <script>
 	import { settingsVisible } from './store.js'
-	import Header from './components/Header.svelte'
     import Calculator from './components/Calculator.svelte'
 	import ShowSettingsButton from './components/buttons/ShowSettingsButton.svelte'
 	import Settings from './components/Settings.svelte';
+    import Header from './components/Header.svelte';
 </script>
 
-<body>
+<main>
 	<Header />
 	<Calculator />
 	<ShowSettingsButton />
-	{#if $settingsVisible}
-		<Settings />
-	{/if}
-</body>
+</main>
+{#if $settingsVisible}
+	<Settings />
+{/if}
+
+<style>
+	main {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+</style>

@@ -2,6 +2,7 @@
     import { decimalPlaces, showEquation, calculationMethod } from '../store.js'
     import { writable } from 'svelte/store';
     import MathJaxEquation from './MathJaxEquation.svelte';
+    import Header from './Header.svelte';
 
     let value1 = null;
     let value2 = null;
@@ -103,7 +104,6 @@
 		color: #555;
 		font-size: 48px;
 		margin-top: 4rem;
-        margin-bottom: 3rem;
 	}
 
     input {
