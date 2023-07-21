@@ -1,5 +1,19 @@
+<script>
+    import { calculationMethod } from "../store";
+
+    let headingText = '';
+
+    $ : {
+        if ($calculationMethod == 'percent_difference') {
+            headingText = 'Percent Difference Calculator';
+        } else {
+            headingText = 'Percent Change Calculator'
+        }
+    }
+</script>
+
 <header>
-    <h1>Percent Calculator</h1>
+    <h1>{headingText}</h1>
 </header>
 
 <style>

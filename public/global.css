@@ -31,3 +31,9 @@ svg {
 .MathJax_Preview > * {
 	display: none !important;
 }
+
+.MJXc-display {
+	color: #555;
+	font-size: 13px !important;
+	margin: 0.5rem !important; 
+}

@@ -1,5 +1,6 @@
 <script>
     import { onMount, afterUpdate } from 'svelte';
+    import ShowEquationSwitch from './buttons/ShowEquationSwitch.svelte';
     
     export let equation = "";
 
@@ -23,5 +24,7 @@
     .mathjax-equation {
         height: 72px;
         margin-top: 3rem;
+        margin-bottom: 6rem;
+        color: transparent;
     }
 </style>

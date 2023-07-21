@@ -29,7 +29,7 @@
         </label>
 
         <label>
-            <h5>Show Equation:</h5>
+            <h5>Show Calculation:</h5>
             <input type="checkbox" bind:checked={$showEquation}>
         </label>
     </div>
@@ -42,7 +42,7 @@
         width: 480px;
         height: 100%;
         background: #f8f8f8;
-        border-left: 2px solid #eee;
+        border-left: 1px solid #eee;
         padding: 2rem;
         z-index: 1;
     }
