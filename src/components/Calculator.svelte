@@ -74,8 +74,8 @@
 
     input {
 		border: none;
-        border-left: 1px solid #ccc;
-        border-right: 1px solid #ccc;
+        border-left: 1px solid #eaeaea;
+        border-right: 1px solid #eaeaea;
 		background: #fafafa;
 		color: #777;
 		font-family: Roboto, sans-serif;
@@ -88,12 +88,12 @@
 
     input.input1 {
         border-radius: 5px 5px 0 0;
-		border-top: 1px solid #ccc;
-        border-bottom: 1px solid #e4e4e4;
+		border-top: 1px solid #eaeaea;
+        border-bottom: 1px solid #eee;
     }
 
     input.input2 {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #eaeaea;
         border-radius: 0 0 5px 5px;
     }
 

@@ -41,8 +41,8 @@
         right: 0;
         width: 480px;
         height: 100%;
-        background: #f8f8f8;
-        border-left: 1px solid #eee;
+        background: #fafafa;
+        border-left: 1px solid #eaeaea;
         padding: 2rem;
         z-index: 1;
     }
@@ -64,21 +64,22 @@
     h3 {
         margin-bottom: 4rem;
         font-size: 16px;
-        color: #666;
-        letter-spacing: 1px;
+        font-variant: all-small-caps;
+        color: #777;
+        letter-spacing: 1.2px;
     }
 
     h5 {
         display: inline-block;
+        font-weight: 400;
+        font-variant: all-small-caps;
+        letter-spacing: 2px;
     }
 
     label {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-weight: 500;
-        font-variant: all-small-caps;
-        letter-spacing: 2px;
         color: #aaa;
         margin: 2rem 0;
         width: 100%;

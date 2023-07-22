@@ -18,7 +18,7 @@
 
 <style>
     h1 {
-        font-size: 19px;
+        font-size: 18px;
         color: #555;
         padding: 2rem;
         font-family: Roboto, Helvetica, sans-serif;

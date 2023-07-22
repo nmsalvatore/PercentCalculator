@@ -24,7 +24,6 @@
     .mathjax-equation {
         height: 72px;
         margin-top: 3rem;
-        margin-bottom: 6rem;
         color: transparent;
     }
 </style>
