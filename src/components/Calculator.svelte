@@ -57,7 +57,7 @@
 		justify-content: center;
 		padding: 2rem 0;
 		align-items: center;
-		margin-bottom: calc(90.5px + 1vh);
+		margin-bottom: calc(85.5px + 1vh);
 	}
 
 	.percent-symbol {
@@ -113,4 +113,10 @@
 	input[type="number"]::-webkit-outer-spin-button {
 		-webkit-appearance: none;
 	}
+
+    @media only screen and (max-width: 480px) {
+        .calculator {
+            margin-bottom: calc(67px + 1vh);
+        }
+    }
 </style>

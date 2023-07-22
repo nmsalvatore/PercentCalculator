@@ -29,6 +29,7 @@
     @media only screen and (max-width: 480px) {
         h1 {
             padding: 1.5rem;
+            font-size: 16px;
         }
     }
 </style>
