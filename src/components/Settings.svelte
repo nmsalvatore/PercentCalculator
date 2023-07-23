@@ -106,4 +106,9 @@
         width: 60px;
     }
 
+    .decimal-input::-webkit-inner-spin-button, 
+    .decimal-input::-webkit-outer-spin-button {  
+        opacity: 1;
+    }
+
 </style>
